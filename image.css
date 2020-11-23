@@ -1,0 +1,142 @@
+body {
+    background-color: #25A9FC;
+}
+
+.canvas {
+    border: 15px solid white;
+    height: 500px;
+    width: 750px;
+    margin:  auto;
+    position: relative;
+    top: 67px;
+}
+
+.head {
+    border: 1px solid #A6BECF;
+    border-radius: 50%;
+    height: 55%;
+    width: 40%;
+    margin: 0 auto;
+    position: relative;
+    top: 22.5%;
+    z-index: 3;
+    background-color: #A6BECF;
+}
+
+.head-copy {
+    border-radius: 50%;
+    height: 279px;
+    width: 300px;
+    margin: 0 auto;
+    position: relative;
+    bottom: 33%;
+}
+
+.ear_left {
+    border: 1px solid #A6BECF;
+    border-radius: 50%;
+    height: 65%;
+    width: 65%;
+    position: relative;
+    right: 19%;
+    bottom: 60%;
+    background-color: #A6BECF;
+    z-index: 1;
+}
+
+.ear_right {
+    border: 1px solid #A6BECF;
+    border-radius: 50%;
+    height: 65%;
+    width: 65%;
+    position: relative;
+    left: 53%;
+    bottom: -2.5%;
+    background-color: #A6BECF;
+    z-index: 1;
+}
+
+.inner_ear {
+    border-radius: 50%;
+    height: 80%;
+    width: 80%;
+    border: 1px solid #819CAF;
+    margin: 0 auto;
+    position: relative;
+    top: 10%;
+    background-color: #819CAF;
+}
+
+.eye_left {
+    border: 1px solid white;
+    border-radius: 50%;
+    height: 32%;
+    width: 30%;
+    margin: 0 auto;
+    position: relative;
+    top: 23%;
+    right: 13%;
+    background-color: white;
+}
+
+.eye_right {
+    border: 1px solid white;
+    border-radius: 50%;
+    height: 32%;
+    width: 30%;
+    margin: 0 auto;
+    position: relative;
+    bottom: 10%;
+    left: 13.5%;
+    background-color: white;
+}
+
+.pupil {
+    border: 1px solid #27354A;
+    border-radius: 50%;
+    height: 26%;
+    width: 26%;
+    margin: 0 auto;
+    position: relative;
+    top: 40%;
+    background-color: #27354A;
+}
+
+.nose {
+    border: 1px solid #BE845F;
+    width: 19%;
+    height: 32%;
+    position: relative;
+    left: 41%;
+    bottom: 17%;
+    border-radius: 50px;
+    background-color: #BE845F;
+}
+
+.hair1 {
+    border: 1px solid #A6BECF;
+    width: 0;
+    height: 0;
+    position: relative;
+    bottom: 137.5%;
+    left: 37%;
+    z-index: 1;
+    border-left: 10px solid transparent;
+    border-right: 10px solid transparent;
+    border-bottom: 25px solid #A6BECF;
+    border-top: none;
+}
+
+.hair2 {
+    border: 1px solid #A6BECF;
+    width: 0;
+    height: 0;
+    position: relative;
+    bottom: 145%;
+    left: 52%;
+    z-index: 1;
+    border-left: 10px solid transparent;
+    border-right: 10px solid transparent;
+    border-bottom: 20px solid #A6BECF;
+    border-top: none;
+}
